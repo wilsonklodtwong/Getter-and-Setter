@@ -1,0 +1,49 @@
+.rest__block {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	// display: none;
+}
+.rest__block img {
+	width: 50%;
+	border-radius: 10px;
+	margin-bottom: 25px
+}
+.rest__block h3 {
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+	font-size: 40px;
+}
+.rest__block p {
+	font-size: 20px;
+}
+
+.rest__type:before,
+.rest__location:before,
+.rest__cost:before,
+.rest__rating:before {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	color: red;
+}
+
+.rest__type:before {
+	content: "Style of Cuisine:  ";
+}
+.rest__location:before {
+	content: "Location:  ";
+}
+.rest__cost:before {
+	content: "Average cost for two people: $ ";
+}
+.rest__rating:before {
+	content: "Zomato User Rating:  ";
+}

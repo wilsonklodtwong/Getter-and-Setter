@@ -1,0 +1,47 @@
+@import "partials/setup";
+@import "partials/global";
+@import "partials/hero";
+@import "partials/selection";
+@import "partials/restBlock";
+
+.selection {
+	margin: 0 auto;
+	padding: 100px 0;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#canada, #usa {
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 75%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.button-can,
+.button-us {
+	justify-content: space-between;
+	align-item: center;
+	flex-wrap:wrap;
+	display: flex;
+	// display: none;
+}
+footer {
+	display: flex;
+	height: 20%;
+	background-color: rgba(0,0,0,0.1);
+}
+.footer__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 50px;
+
+}
+.footer__logo img {
+	width: 60px;
+	margin:  15px 15px;
+}

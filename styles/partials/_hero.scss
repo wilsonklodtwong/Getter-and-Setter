@@ -1,0 +1,35 @@
+.hero {
+	margin: 0 auto;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-item: center;
+}
+.header__logo h2 {
+	text-shadow: 1px 1px #fff;
+}
+.header__logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-item: center;
+	margin-top: 30px;
+}
+.header__info {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 40px 0;
+}
+.header__info p {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.header__selection {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+}
+.header__info p {
+	text-shadow: 1px 1px #fff;
+}
